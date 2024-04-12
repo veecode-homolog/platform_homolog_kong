@@ -8,7 +8,7 @@ kong:
   mode: standard  
 cert-manager:
   enabled: true
-  email:  
+  email:  test@test.com.br
   issuer:
     type: "staging"
     solver: "DNS01"
