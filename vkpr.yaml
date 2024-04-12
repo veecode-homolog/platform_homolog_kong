@@ -1,0 +1,14 @@
+global:
+  domain: vkpr.platform.vee.codes
+  secure: true
+  provider: aws
+kong: 
+  enabled: true
+  basic_auth: false
+  mode: standard  
+cert-manager:
+  enabled: true
+  email:  
+  issuer:
+    type: "staging"
+    solver: "DNS01"
