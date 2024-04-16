@@ -10,5 +10,5 @@ cert-manager:
   enabled: true
   email:  test@test.com.br
   issuer:
-    type: "staging"
+    type: "production"
     solver: "DNS01"
